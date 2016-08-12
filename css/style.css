@@ -49,7 +49,7 @@ main{
 aside {
     width: 28%;
     height: 1448px;
-    background: black;
+    background: #fbf1f1;
     display: inline-block;
     margin-top: 7px;
     float: left;
@@ -63,8 +63,14 @@ h2 {
 }
 
  
+aside li{
+  padding: 20px;
+  font-family: 'Cabin', sans-serif;
+}
 
-
+aside p{
+  font-family: 'Indie Flower', cursive;
+}
 
 
 h3{
@@ -195,6 +201,10 @@ input[type=checkbox]:checked ~ #menu{
     margin: 0 auto;
     display: block;
     margin: 6px;
+    
+    max-width:500px;
+
+
 }
 
 /*.small-box:hover{
@@ -266,15 +276,15 @@ p {
     font-size: 2em;
     outline: none;
     background: transparent;
-    font-family: 'Cabin', sans-serif;
     font-weight: 200;
     color: #FFFFFF;
-    width: 96%;
-    height: 96%;
+    width: 100%;
+    height: 100%;
     float: left;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: block;
-    margin: 6px;
+    margin: 0px;
+    font-size: larger;
 }
 
 
@@ -396,6 +406,9 @@ p {
   .show-menu {
     display:block;
   }
+  aside ul{
+  display: block;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -425,7 +438,7 @@ p {
 aside {
     width: 100%;
     height: 1500px;
-    background: black;
+    background: #fbf1f1;
     display: inline-block;
     margin-top: 7px;
     margin-left: 6px;
