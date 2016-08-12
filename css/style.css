@@ -48,7 +48,7 @@ main{
 
 aside {
     width: 28%;
-    height: 1500px;
+    height: 1448px;
     background: black;
     display: inline-block;
     margin-top: 7px;
@@ -57,10 +57,9 @@ aside {
 
 
 h2 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
+    font-family: 'Satisfy', cursive; font-weight: 400;
+    color: #FFFFFF;
+    padding: 29px;
 }
 
 
@@ -143,6 +142,7 @@ h2 {
   .small-box{
     width: 100%;
     float: none;
+    margin-top: 14px;
   }
   
   .midbox{
