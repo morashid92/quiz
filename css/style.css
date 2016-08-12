@@ -257,20 +257,26 @@ p {
 /* .button */
 
 .button {
-  display: inline-block;
-  position: relative;
-  margin: 1em;
-  padding: 0.67em;
-  border: 2px solid #FFF;
-  overflow: hidden;
-  text-decoration: none;
-  font-size: 2em;
-  outline: none;
-  background: transparent;
-  font-family: 'Cabin', sans-serif;font-weight: 200; 
-  color: #FFFFFF;
-    
+    position: relative;
+    margin: 1em;
+    padding: 0.67em;
+    border: 2px solid #FFF;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 2em;
+    outline: none;
+    background: transparent;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 200;
+    color: #FFFFFF;
+    width: 96%;
+    height: 96%;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    margin: 6px;
 }
+
 
 .button span {
   -webkit-transition: 5s;
